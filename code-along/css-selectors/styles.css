@@ -1,0 +1,34 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: blue
+}
+div {
+    background: red;
+    height: 300;
+    width: 250;
+    text-align: center;
+}
+#white {
+    font-size: 25px;
+}
+h3 {
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+h3, p{
+    display: inline-block;
+    margin-right: 10px;
+}
+p:nth-of-type(2) {
+    font-size: 20px;
+}
+.content {
+    text-align: left;
+    padding: 0 0 0 10px;
+    color: black;
+    font-weight: bold;
+}
+input[type='text']

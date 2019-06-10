@@ -1,5 +1,43 @@
-body    {
-    height: 100%;
-    width: 100%;
-    background: red;
+h1 {
+    color: black;
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+body {
+   
+}
+
+main {
+    width: 60%;
+    margin: 5% auto;
+    background: black;
+}
+
+article {
+    margin: 1% auto;
+    border: solid black 2px;
+    width: 60%;
+    background: white;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+article > h3 {
+    font-size: 1cm;
+}
+
+article:hover {
+    background: grey;
+}
+
+article:hover > h3 {
+    color: black
+}
+
+footer {
+    color: black;
+    text-decoration: underline;
 }

@@ -1,43 +1,56 @@
+body {
+    margin: center;
+    background-color: beige;
+    
+}
+
 h1 {
     color: black;
-    width: 60%;
     margin: 5% auto;
     text-align: center;
 }
 
-body {
-   
-}
-
-main {
-    width: 60%;
-    margin: 5% auto;
-    background: black;
-}
-
-article {
-    margin: 1% auto;
-    border: solid black 2px;
-    width: 60%;
-    background: white;
-    color: black;
-    text-decoration: underline;
+h2 {
     
 }
 
-article > h3 {
-    font-size: 1cm;
+
+main {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+   
+}
+
+img {
+
+    height: auto;
+    width: 150px;
+}
+
+article {
+    border-radius: 150px; 
+    background: lightblue;
+    padding: 50px; 
+    width: 70%;
+    height: 70%; 
+    margin: 50px;
 }
 
 article:hover {
-    background: grey;
+    background: lightsteelblue;
 }
 
-article:hover > h3 {
-    color: black
-}
 
 footer {
     color: black;
     text-decoration: underline;
+    text-align: center;
 }
+
+.articleheader{
+    font-size: 20px;
+
+}
+

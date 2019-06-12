@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    padding: 0px;
 }
 
 html {
@@ -17,7 +18,7 @@ html {
     border-radius: 20px;
     padding: 10px;
     font-family: Georgia;
-    
+    opacity: .8;
 }
 
 .box-heading {
@@ -28,7 +29,6 @@ html {
 }
 
 #no-box {
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 1000px;
@@ -36,7 +36,7 @@ html {
     padding: 10px;
 }
 
-#host-box {
+#bobross-box {
     width: 300px;
     height: 680px;
     margin: 8px 8px 8px 0px;
@@ -45,14 +45,14 @@ html {
 
 #accolades-box {
     width: 300px;
-    height: 442px;
-    margin: 6px;
+    height: 230px;
+    margin: 6px 10px 10px auto;
     display: inline-block;
 }
 
 #education-box {
     width: 300px;
-    height: 442px;
+    height: 167px;
     margin: 6px;
     display: inline-block;
 }
@@ -66,4 +66,31 @@ html {
 
 #middle-box .box .box-heading {
     text-align: center;
+}
+
+ul  {
+    padding: 30px;
+    font-size: 18;
+    text-align: left;
+}
+
+h1  {
+    font-size: 35px;
+}
+
+img {
+    height: 15pc;
+    border-radius: 10pc;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.left {
+    float: left;
+    margin-left: 100px;
+}
+
+.right {
+    float: right;
+    margin-right: 100px;
 }

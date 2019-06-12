@@ -41,6 +41,7 @@ html {
     height: 680px;
     margin: 8px 8px 8px 0px;
     display: inline-block;
+    vertical-align: top;
 }
 
 #accolades-box {
@@ -48,6 +49,7 @@ html {
     height: 230px;
     margin: 6px 10px 10px auto;
     display: inline-block;
+    vertical-align: top;
 }
 
 #education-box {
@@ -55,13 +57,16 @@ html {
     height: 167px;
     margin: 6px;
     display: inline-block;
+    vertical-align: top;
 }
 
 #artworks-box {
     width: 640px;
     height: 200px;
     float: right;
-    margin-top: -224px
+    margin-top: -440px;
+    text-decoration: underline;
+    text-align: center;
 }
 
 #middle-box .box .box-heading {
@@ -81,7 +86,7 @@ h1  {
 img {
     height: 15pc;
     border-radius: 10pc;
-    margin-left: 50px;
+    margin-left: 55px;
     margin-top: 30px;
 }
 

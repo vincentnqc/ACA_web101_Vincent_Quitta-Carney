@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  width: 100%;;
+  padding: 10px;
+}
+
+.title {
+  border: 2px solid black;
+  height: 20%;
+  width: 80%;
+  display: inline-grid;
+}
+.titlegrid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 80% 20%;
+}
+.cookie {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px
+}
+
+.offer {
+  text-align: center;
+}
+
+.techfood>p {
+  font-size: 85px;
+  text-align: right;
+  color: black;
+}
+.techfood {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: white;
+}
+.offer>p {
+  font-size: 18px;
+  align-content: space-between;
+  color:black;
+}
+.offer {
+  grid-column: 1/3;
+  grid-row: 2/2;
+  background-color:white;
+}
+.sale {
+  border: 2px solid black;
+  height: 20%;
+  width: 20%;
+  display: inline-grid;
+  float: right;
+}
+.salegrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60% 40%;
+}
+.save>p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.save {
+  grid-row: 1/2;
+  background-color:white;
+}
+.ex>p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.ex {
+  grid-row: 2/2;
+  background-color:white;
+}
+.main {
+  border: 2px solid rgb(233, 51, 233);
+  height: 60%;
+  width: 80%;
+  display: inline-grid;
+  border: solid black;
+}
+.main1grid {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 100%;
+  height: 100%;
+  border: solid black;
+}
+.mango {
+  grid-column: 1/2;
+  background-color:white;
+  border: solid black;
+}
+.junk>h1 {
+  color: white;
+  border: solid black;
+}
+.junk>p {
+  color:white;
+  border: solid black;
+}
+.junk {
+  grid-column: 2/3;
+  background-color: white;
+  border: solid black;
+}
+.cheetos {
+  grid-column: 3/3;
+  background-color: white;
+  border: solid black;
+  background-image: url("chips.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.cheetos>img {
+  max-width: 100%;
+}
+
+.main2grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  height: 100%;
+  border: solid black;
+}
+.tea {
+  grid-column: 1/2;
+  background-color: white;
+  border: solid black;
+}
+.nuts {
+  grid-column: 2/3;
+  background-color: white;
+  border: solid black;
+}
+.yogurt {
+  grid-column: 3/4;
+  background-color: white;
+  border: solid black;
+}
+.mnm {
+  grid-column: 4/4;
+  background-color: white;
+  border: solid black;
+}
+.sidebar {
+  border: 2px solid white;
+  border: solid black;
+  height: 60%;
+  width: 20%;
+  float: right;
+}
+.sidebargrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  width: 100%;
+  border: solid black;
+}
+.wine {
+  grid-row: 1/2;
+  background-color: white;
+  v
+}
+.ben {
+  grid-row: 2/3;
+  background-color: white;
+  border: solid black;
+}
+.ramen {
+  grid-row: 3/3;
+  background-color:white;
+}
+.footer {
+  border: 2px solid black;
+  height: 20%;
+  width: 100%;
+  display: inline-grid;
+}
+.footergrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+}
+.caffeine {
+  grid-column: 1/2;
+  background-color: white;
+  border: solid black;
+}
+.coffee {
+  grid-column: 2/3;
+  background-color: white;
+  border: solid black;
+}
+.cola {
+  grid-column: 3/4;
+  background-color: white;
+  border: solid black;
+}
+.monster {
+  grid-column: 4/4;
+  background-color: white;
+  border: solid black;
+}

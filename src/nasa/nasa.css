@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 5% 18%;
+}
+
+header {
+  height: 450px;
+  width: 850px;
+  border: 2px solid black;
+  background-image: url(./stars.jfif);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 20px;
+  
+}
+
+.contact {
+  height: 324px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 75px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+.officeinfo {
+  height: 324;
+  width: 270px;
+  padding: 75px;
+  margin-left: 20px;
+  background-color: grey;
+}
+
+.socialmedia {
+  height: 324px;
+  width: 270px;
+  padding: 75px;
+  background-color: grey;
+  
+}
+
+.mylists {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 324px;
+  width: 850px;
+  background-color: grey;
+}
+
+
+@media (max-width: 980px) {
+  footer  {
+    flex-direction: row;
+
+  }
+}

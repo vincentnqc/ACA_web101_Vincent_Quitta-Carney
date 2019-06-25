@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100%;
+  width: 100%;;
+  padding: 10px;
+}
+
+.title {
+  height: 20%;
+  width: 80%;
+  display: inline-grid;
+}
+
+.titlegrid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 80% 20%;
+}
+
+.cookie {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+.offer {
+    text-align: center;
+}
+
+
+.techfood>p {
+  font-size: 85px;
+  text-align: center;
+}
+
+.techfood {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.offer>p {
+  font-size: 18px;
+  align-content: space-between;
+}
+
+.offer {
+  grid-column: 1/3;
+  grid-row: 2/2;
+}
+
+.sale {
+  height: 20%;
+  width: 20%;
+  display: inline-grid;
+  float: right;
+}
+
+.salegrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 60% 40%;
+}
+
+.save>p {
+    padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.save {
+  grid-row: 1/2;
+    background-color: pink;
+}
+
+.ex>p {
+  font-size: 20px;
+  color: white;
+  padding-top: 7px;
+}
+
+.ex {
+  grid-row: 2/2;
+    background-color: #2aadea;
+    text-align: center;
+}
+
+.main {
+  height: 60%;
+  width: 80%;
+  display: inline-grid;
+}
+
+.main1grid {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 100%;
+  height: 100%;
+  border: solid #2aadea;
+}
+
+.mango {
+  grid-column: 1/2;
+  border: solid #2aadea;
+}
+
+.junk>h1 {
+  color: white;
+  border: solid #2aadea;
+}
+
+.junk>p {
+  color:white;
+  border: solid #2aadea;
+}
+
+.junk {
+  grid-column: 2/3;
+  border: solid #2aadea;
+}
+
+.cheetos {
+  grid-column: 3/3;
+  border: solid #2aadea;
+  padding: 10px;
+  
+}
+
+.cheetos p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.nested {
+  display: grid;
+  border:2px solid black;
+  grid-template-columns: 30% auto;
+  grid-template-rows:60px auto;
+  margin: 0;
+}
+
+.p  {
+  border: solid #2aadea;
+}
+
+.cheetos>img {
+  max-width: 100%;
+}
+
+.main2grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+  height: 100%;
+  border: solid #2aadea;
+}
+
+.tea {
+  grid-column: 1/2;
+  background-color: white;
+  border: solid #2aadea;
+}
+
+.nuts {
+  grid-column: 2/3;
+  background-color: white;
+  border: solid #2aadea;
+}
+
+.yogurt {
+  grid-column: 3/4;
+  background-color: white;
+  border: solid #2aadea;
+}
+
+.mnm {
+  grid-column: 4/4;
+  background-color: white;
+  border: solid #2aadea;
+}
+
+.sidebar {
+  border: 2px solid white;
+  border: solid #2aadea;
+  height: 60%;
+  width: 20%;
+  float: right;
+}
+
+.sidebargrid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  width: 100%;
+  border: solid #2aadea;
+}
+
+.wine {
+  grid-row: 1/2;
+  background-color: white;
+  
+}
+
+.ben {
+  grid-row: 2/3;
+  background-color: white;
+  border: solid #2aadea;
+}
+
+.ramen {
+  grid-row: 3/3;
+  background-color:white;
+}
+
+.footer {
+  height: 20%;
+  width: 100%;
+  display: inline-grid;
+}
+
+.footergrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100%;
+}
+
+.caffeine {
+  grid-column: 1/2;
+  background-color: white;
+  border: dotted #2aadea;
+}
+
+.coffee {
+  grid-column: 2/3;
+  background-color: white;
+  border: dotted #2aadea;
+}
+
+.cola {
+  grid-column: 3/4;
+  background-color: white;
+  border: dotted #2aadea;
+}
+
+.monster {
+  grid-column: 4/4;
+  background-color: white;
+  border: dotted #2aadea;
+}

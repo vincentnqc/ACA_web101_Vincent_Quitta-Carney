@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Hind', sans-serif;
 }
 
 body {
@@ -10,34 +11,91 @@ body {
   border: solid red;
 }
 
+.elements {
+  display: grid;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+  height: 100%;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 100% 0%;
+  background: rgba(114, 186, 94, 0.05);
+}
+
 nav {
-  width: 15%;
+  width: 100%;
   height: 100%;
   border: solid black; 
   display: inline-block;
   }
 
 header {
-  display: inline;
+  display: grid;
   border: solid black;
-  height: 15%;
-  width: 85%;
-  float: right;
-  display: flex;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+  width: 100%;
 }
 
-.container1 {
-  display: inline-grid;
-  grid-template-columns: repeat(4, 15%);
+#headerbox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+
+#headerbox h2 {
+  text-align: left;
+  margin: auto auto auto 30px;
+}
+
+#search {
+  text-align: right;
+  margin: auto;
+}
+
+#containers {
+  display: grid;
+  height: 85%;
+  width: 80%;
+  margin: auto;
+}
+
+#container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
   grid-template-rows: auto;
   border: solid blue;
-  float: right;
-
 }
 
-.container2 {
+#top1 {
+  background-color: lightsteelblue;
+}
+
+#top2 {
+  background-color: blanchedalmond;
+}
+
+#top3 {
+  background-color: lightgreen
+}
+
+#top4 {
+  background-color: lightcoral
+}
+
+#container2 {
   border: solid black;
-  display: inline-grid;
-  grid-template-columns: repeat(3, 15%);
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
   grid-template-rows: auto;
+}
+
+#bottom1 {
+  background-color: navajowhite;
+}
+
+#bottom2 {
+  background-color: mistyrose
+}
+
+#bottom3 {
+  background-color: darkkhaki
 }

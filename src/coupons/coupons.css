@@ -104,13 +104,16 @@ h1 {
   display: grid;
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: 100%;
-  height: 100%;
+  height: 50%;
   border: solid #2aadea;
 }
 
 .mango {
   grid-column: 1/2;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .junk>h1 {
@@ -126,19 +129,17 @@ h1 {
 .junk {
   grid-column: 2/3;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .cheetos {
-  grid-column: 3/3;
-  border: solid #2aadea;
-  padding: 10px;
-  
-}
 
-.cheetos p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
+  border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .nested {
@@ -153,15 +154,11 @@ h1 {
   border: solid #2aadea;
 }
 
-.cheetos>img {
-  max-width: 100%;
-}
-
 .main2grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 100%;
-  height: 100%;
+  height: 50%;
   border: solid #2aadea;
 }
 
@@ -169,24 +166,36 @@ h1 {
   grid-column: 1/2;
   background-color: white;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .nuts {
   grid-column: 2/3;
   background-color: white;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .yogurt {
   grid-column: 3/4;
   background-color: white;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .mnm {
   grid-column: 4/4;
   background-color: white;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .sidebar {
@@ -208,19 +217,38 @@ h1 {
 
 .wine {
   grid-row: 1/2;
-  background-color: white;
-  
+  background-color: white; display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
+
+ .wine img {
+  margin-left: 10px;
+} 
 
 .ben {
   grid-row: 2/3;
   background-color: white;
   border: solid #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .ramen {
   grid-row: 3/3;
   background-color:white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+
+}
+
+.ramen img {
+  margin-left: -30px;
+  margin-top: 30px;
+  width: 130px;
+  height: auto;
 }
 
 .footer {
@@ -245,16 +273,43 @@ h1 {
   grid-column: 2/3;
   background-color: white;
   border: dotted #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
 
 .cola {
   grid-column: 3/4;
   background-color: white;
   border: dotted #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.cola img {
+  margin-left: -70px;
+  width: 200px;
+  height: auto;
 }
 
 .monster {
   grid-column: 4/4;
   background-color: white;
   border: dotted #2aadea;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.monster img {
+  margin-left: -40px;
+  width: 160px;
+  height: auto;
+}
+
+img {
+  height: 80%;
+  width: auto;
+  margin-top: 10px;
 }

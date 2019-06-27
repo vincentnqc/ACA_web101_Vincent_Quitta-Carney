@@ -3,9 +3,16 @@
   padding: 0;
 box-sizing: border-box;
 }
+ 
+body {
+   height: 100%;
+   width: 100%;
+ }
 
-.border1 {
+ .border1 {
   border: 1px solid red;
+  display: grid;
+ 
 }
 
 .border2 {
@@ -52,12 +59,11 @@ main {
   background-color: lightblue;
   border-radius: 6px;
   box-shadow: 11px 2px 3px lightcoral;
+  text-align: center;
 }
 
 .project1 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 65% 35%;
 }
 
 .project-header {

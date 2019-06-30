@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 body{
   height:100%;
   width: 100%;;
   padding: 10px;
+  text-align: center;
 }
 
 .title {
@@ -29,8 +31,9 @@ body{
 
 h1 {
   text-align: center;
-  font-size: 100px;
+  font-size: 110px;
 }
+
 
 .offer {
     text-align: center;
@@ -106,6 +109,7 @@ h1 {
   grid-template-rows: 100%;
   height: 50%;
   border: solid #2aadea;
+  height: 225px;
 }
 
 .mango {
@@ -129,9 +133,14 @@ h1 {
 .junk {
   grid-column: 2/3;
   border: solid #2aadea;
+  background-color: #2aadea;
+  color: white;
+  font-size: 170%;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
+  text-align: left;
+  
 }
 
 .cheetos {
@@ -140,6 +149,7 @@ h1 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
+  text-align: center;
 }
 
 .nested {
@@ -150,16 +160,14 @@ h1 {
   margin: 0;
 }
 
-.p  {
-  border: solid #2aadea;
-}
-
 .main2grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 100%;
   height: 50%;
   border: solid #2aadea;
+  height: 215px;
+  text-align: center;
 }
 
 .tea {
@@ -200,7 +208,6 @@ h1 {
 
 .sidebar {
   border: 2px solid white;
-  border: solid #2aadea;
   height: 60%;
   width: 20%;
   float: right;
@@ -212,7 +219,7 @@ h1 {
   grid-template-rows: repeat(3, 1fr);
   height: 100%;
   width: 100%;
-  border: solid #2aadea;
+  border: dotted black;
 }
 
 .wine {
@@ -229,7 +236,7 @@ h1 {
 .ben {
   grid-row: 2/3;
   background-color: white;
-  border: solid #2aadea;
+  border: dotted black;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -261,18 +268,21 @@ h1 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 100%;
+  border: solid #2aadea
 }
 
 .caffeine {
   grid-column: 1/2;
-  background-color: white;
-  border: dotted #2aadea;
+  background-color: #2aadea;
+  border: solid #2aadea;
+  color: white;
+  font-size: 200%;
+  text-align: left;
 }
 
 .coffee {
   grid-column: 2/3;
-  background-color: white;
-  border: dotted #2aadea;
+  border: solid grey;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -281,7 +291,7 @@ h1 {
 .cola {
   grid-column: 3/4;
   background-color: white;
-  border: dotted #2aadea;
+  border: solid grey;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -295,8 +305,7 @@ h1 {
 
 .monster {
   grid-column: 4/4;
-  background-color: white;
-  border: dotted #2aadea;
+  border: solid grey;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
@@ -311,5 +320,5 @@ h1 {
 img {
   height: 80%;
   width: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 }

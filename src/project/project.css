@@ -29,6 +29,27 @@ body {
 nav {
   height: 90px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {

@@ -8,16 +8,15 @@
 body {
   height: 100%;
   width: 100%;
-  border: solid red;
 }
 
 .elements {
   display: grid;
-  border: 2px dashed rgba(8, 22, 4, 0.35);
+  border: 2px solid black;
   height: 100%;
   grid-template-columns: 15% 85%;
   grid-template-rows: 100% 0%;
-  background: rgba(114, 186, 94, 0.05);
+  background-color: lightseagreen;
 }
 
 ul {
@@ -26,10 +25,12 @@ ul {
 
 li {
   padding: 10px;
+  text-align: center;
+  text-decoration: underline
 }
 
 li:hover {
-background-color: aqua;
+background-color: lightgrey;
 opacity: 0.9;
 }
 
@@ -42,6 +43,13 @@ nav {
 
 nav h1 {
   margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 60px;
 }
 
 header {
@@ -50,6 +58,7 @@ header {
   grid-template-columns: 100%;
   grid-template-rows: 10% 90%;
   width: 100%;
+  background-color: bisque;
 }
 
 #headerbox {
@@ -79,40 +88,73 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: auto;
-  border: solid blue;
 }
 
 #top1 {
-  background-color: lightsteelblue;
+  background-image: url(graph1.png);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
+
 #top2 {
-  background-color: blanchedalmond;
+  background-image: url(graph2.png);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #top3 {
-  background-color: lightgreen
+  background-image: url(graph3.png);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #top4 {
-  background-color: lightcoral
+  background-image: url(graph4.png);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #container2 {
-  border: solid black;
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
   grid-template-rows: auto;
 }
 
 #bottom1 {
-  background-color: navajowhite;
+  background-image: url(graph5.jfif);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #bottom2 {
-  background-color: mistyrose
+  background-image: url(graph6.png);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #bottom3 {
-  background-color: darkkhaki
+  background-image: url(graph7.jfif);
+  border: solid black;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    display: none;
+  }
+}
+

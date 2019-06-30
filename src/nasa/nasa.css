@@ -11,8 +11,8 @@ body {
 }
 
 header {
-  height: 450px;
-  width: 850px;
+  height: 40%;
+  width: 75%;
   border: 2px solid black;
   background-image: url(./stars.jfif);
   display: flex;
@@ -30,15 +30,12 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 75px;
-  margin-left: 20px;
   background-color: grey;
 }
 
 .officeinfo {
   height: 324;
   width: 270px;
-  padding: 75px;
   margin-left: 20px;
   background-color: grey;
 }
@@ -46,7 +43,6 @@ header {
 .socialmedia {
   height: 324px;
   width: 270px;
-  padding: 75px;
   background-color: grey;
 }
 
@@ -57,13 +53,12 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-  height: 324px;
-  width: 850px;
+  width: 75%;
   background-color: grey;
 }
 
 
-@media (max-width: 980px) {
+@media (max-width: 600px) {
   footer  {
     flex-direction: row;
 

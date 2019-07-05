@@ -1,0 +1,36 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.orders { 
+  height: 5%;
+  width:40%;
+  color: lightgrey
+}
+
+.money {
+  height: 8%;
+  width:40%;
+  font-size: 50;
+  border: solid lightseagreen;
+  background-color: lightseagreen;
+  color: lightgrey;
+}
+
+.revenue {
+  height: 5%;
+  width:40%;
+  font-size: 15;
+  border: solid lightseagreen;
+  background-color: lightseagreen;
+  color: lightgrey;
+}
+
+.sales {
+  width: 40%;
+  font-size: 15;
+  border: lightseagreen;
+  background-color: lightseagreen;
+  color: lightgrey;
+}

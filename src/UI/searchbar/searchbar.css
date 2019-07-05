@@ -1,0 +1,15 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  width: 40%;
+  border: none;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  background-color: lightslategrey;
+}
+

@@ -1,10 +1,41 @@
-* {
-  height: 0;
-  width: 0;
-}
-
 body {
   height: 100%;
   width: 100%;
 }
 
+nav>ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.home {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.anchor {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  background-image: url("anchor.png")
+}
+
+.news {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+}
+
+.contact {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+
+.help {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}

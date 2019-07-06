@@ -8,7 +8,7 @@ body, html {
   box-sizing: border-box;
   float: left;
   width: 40%;
-  height: 25%;
+  height: 20%;
   border: solid black 1px;
 }
 
@@ -16,7 +16,7 @@ body, html {
   box-sizing: border-box;
   float: left;
   width: 40%;
-  height: 25%;
+  height: 20%;
   border: solid black 1px;
 }
 
@@ -24,7 +24,7 @@ body, html {
   box-sizing: border-box;
   float: left;
   width: 40%;
-  height: 25%;
+  height: 20%;
   border: solid black 1px;
 }
 
@@ -32,13 +32,14 @@ body, html {
   box-sizing: border-box;
   float: left;
   width: 40%;
-  height: 25%;
+  height: 20%;
   border: solid black 1px;
   padding-left:
 }
 
 h3 {
   padding-left: 10%;
+  padding-top: 3%;
 }
 
 p {

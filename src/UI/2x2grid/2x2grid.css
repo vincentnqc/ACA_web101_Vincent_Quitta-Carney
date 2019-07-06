@@ -1,7 +1,8 @@
-body, html {
+body {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
 .box1 {
@@ -11,6 +12,12 @@ body, html {
   height: 20%;
   border: solid black 1px;
 }
+
+.fas {
+  color: lightskyblue;
+  margin-left: -9%;
+}
+
 
 .box2 {
   box-sizing: border-box;
@@ -34,12 +41,12 @@ body, html {
   width: 40%;
   height: 20%;
   border: solid black 1px;
-  padding-left:
 }
 
 h3 {
   padding-left: 10%;
   padding-top: 3%;
+  color: lightskyblue;
 }
 
 p {

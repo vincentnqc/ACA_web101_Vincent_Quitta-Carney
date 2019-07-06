@@ -3,6 +3,18 @@ body {
   width: 100%;
 }
 
+.buttons {
+  height: 300px;
+  width: 900px;
+  display: flex;
+  padding-top: 30px;
+}
+
+.button {
+  height: 60px;
+  width: 300px;
+}
+
 .button1 {
   background-color: blue;
   color: white;
@@ -14,13 +26,14 @@ body {
   }
 
 .button1:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   filter: alpha(opacity=50);
-  margin-top: 5px;
+  position: relative;
+  top: -5px;
 }
 
 .button2 {
-  background-color: grey;
+  background-color: lightgrey;
   color: blue;
   padding: 15px 32px;
   text-align: center;
@@ -30,7 +43,8 @@ body {
   }
 
 .button2:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   filter: alpha(opacity=50);
-  margin-top: 5px;
+  position: relative;
+  top: -5px;
 }

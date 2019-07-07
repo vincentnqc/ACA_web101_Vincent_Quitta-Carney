@@ -11,13 +11,8 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-  height: 40%;
-  width: 75%;
-=======
   height: 450px;
   width: 850px;
->>>>>>> vqc/dashboard
   border: 2px solid black;
   background-image: url(./stars.jfif);
   display: flex;
@@ -35,21 +30,15 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-<<<<<<< HEAD
-=======
   padding: 75px;
   margin-left: 20px;
->>>>>>> vqc/dashboard
   background-color: grey;
 }
 
 .officeinfo {
   height: 324;
   width: 270px;
-<<<<<<< HEAD
-=======
   padding: 75px;
->>>>>>> vqc/dashboard
   margin-left: 20px;
   background-color: grey;
 }
@@ -57,10 +46,7 @@ header {
 .socialmedia {
   height: 324px;
   width: 270px;
-<<<<<<< HEAD
-=======
   padding: 75px;
->>>>>>> vqc/dashboard
   background-color: grey;
 }
 
@@ -71,21 +57,13 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
-  width: 75%;
-=======
   height: 324px;
   width: 850px;
->>>>>>> vqc/dashboard
   background-color: grey;
 }
 
 
-<<<<<<< HEAD
-@media (max-width: 600px) {
-=======
 @media (max-width: 980px) {
->>>>>>> vqc/dashboard
   footer  {
     flex-direction: row;
 

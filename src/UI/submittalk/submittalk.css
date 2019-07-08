@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  background-color:lightgrey;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 20px;
+  border: solid grey
+}
+
+.button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  background-color: grey;
+}

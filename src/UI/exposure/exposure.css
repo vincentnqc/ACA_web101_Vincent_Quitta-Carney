@@ -1,0 +1,16 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  border: solid black;
+  height: 30%;
+  width: 50%;
+  background:lightgray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-align: center;
+}

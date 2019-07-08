@@ -1,0 +1,36 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  border: solid black;
+  height: 40%;
+  width: 40%;
+  margin-left: 5%;
+}
+
+h2 {
+  margin-left: 5%;
+}
+
+p {
+  margin-left: 5%;
+}
+
+
+.button1 {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.button1:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}

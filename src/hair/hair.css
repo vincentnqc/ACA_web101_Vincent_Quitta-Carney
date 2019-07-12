@@ -7,10 +7,11 @@ box-sizing: border-box;
 body {
   height: 100%;
   width: 100%;
+  align-items: center
 }
 
 header {
-  background-color: aquamarine;
+  background-color: #38B2A5;
   height: 150px;
   width: 100%;
   display: flex;
@@ -28,7 +29,7 @@ header {
 }
 
 .nav {
-  width: 500px;
+  
 }
 
 ul {
@@ -36,9 +37,58 @@ ul {
   color: blue;
   display: flex;
   justify-content: row;
-  border: solid black;
   font-family: sans-serif;
   font-weight: bold;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button2 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button4 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button5 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
 }
 
 .z {
@@ -54,15 +104,18 @@ ul {
   background-repeat: no-repeat;
   font-family: sans-serif;
   font-weight: bold;
+  border: solid #38B2A5;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .experts {
   margin-left: 500px;
   padding-top: 100px;
+  font-size: 45px
 }
 
 .grid-container {
-  border: solid black;
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
   grid-template-rows: 1fr, 1fr;
@@ -73,7 +126,7 @@ ul {
 }
 
 .grid-item {
-  border: 1px solid black;
+  border: solid #38B2A5;
   height: 200px;
   width: 200px
 }
@@ -153,3 +206,14 @@ ul {
   .h {
     grid-area: h;
     }
+
+    /* .button1 {
+  background-color: blue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(grey, blue);
+} */

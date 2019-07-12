@@ -5,10 +5,151 @@ box-sizing: border-box;
 }
 
 body {
+  height: 100%;
   width: 100%;
 }
 
 header {
+  background-color: aquamarine;
   height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
 }
 
+.ziz {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nav {
+  width: 500px;
+}
+
+ul {
+  list-style-type: none;
+  color: blue;
+  display: flex;
+  justify-content: row;
+  border: solid black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.z {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  
+}
+
+.greathairstyle {
+  background-image: url(./great-hairstyle1.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.experts {
+  margin-left: 500px;
+  padding-top: 100px;
+}
+
+.grid-container {
+  border: solid black;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "a b c d"
+  "e f g h";
+  height:405px
+}
+
+.grid-item {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px
+}
+
+.grid1 {
+  background-image: url(./grid1.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.grid2 {
+  background-image: url(./grid2.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.grid3 {
+  background-image: url(./grid3.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.grid4 {
+  background-image: url(./grid4.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.grid5 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.grid6 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.grid7 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.grid8 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.a {
+  grid-area: a;
+  }
+ 
+  .b {
+  grid-area: b;
+  }
+ 
+  .c {
+  grid-area: c;
+  }
+  
+  .d {
+  grid-area: d;
+  }
+
+  .e {
+    grid-area: e;
+    }
+   
+  .f {
+    grid-area: f;
+    }
+   
+  .g {
+    grid-area: g;
+    }
+    
+  .h {
+    grid-area: h;
+    }

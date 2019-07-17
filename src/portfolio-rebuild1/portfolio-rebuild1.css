@@ -50,30 +50,27 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-row-gap: 20px;
+  grid-row-gap: 0%;
 }
 
 .content {
-  height: 100%;
-  border-radius: 6px;
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
   box-shadow: 11px 2px 3px grey;
 }
 
 .project1 {
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 65% 35%;
   margin: 10%;
   background-image: url("bob ross.jpg");
-  background-size: 150px;
+  background-size: 200px 200px;
   background-repeat: no-repeat;
   border: 1px solid black;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding-left: 30px;
 }
-
-
 
 .project2 {
   grid-template-columns: repeat(2, 1fr);

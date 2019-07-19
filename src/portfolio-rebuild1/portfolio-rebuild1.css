@@ -1,3 +1,8 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .border1 {
   border: 1px solid black;
 }
@@ -48,16 +53,21 @@ header {
 
 .main {
   display: grid;
+  align-content: center;
+  justify-content: space-evenly;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-row-gap: 0%;
+  height: 500px;
+  width: 500px;
 }
 
 .content {
+  margin: 50%;
   height: 200px;
   width: 200px;
   border-radius: 30px;
   box-shadow: 11px 2px 3px grey;
+  
 }
 
 .project1 {
@@ -154,4 +164,7 @@ header {
   width: 100px;
  }
 
+ .project1 {
+  background-size: 150px 150px;
+ }
 }

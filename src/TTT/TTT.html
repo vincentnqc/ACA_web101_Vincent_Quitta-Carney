@@ -10,21 +10,25 @@
 
 <body>
 
-<div class="box" onclick="playTicTacToe"></div>
-  
- <div id="grid">
-  
-  <div class="box1"></div>
-  <div class="box2"></div>
-  <div class="box3"></div>
-  <div class="box4"></div>
-  <div class="box5"></div>
-  <div class="box6"></div>
-  <div class="box7"></div>
-  <div class="box8"></div>
-  <div class="box9"></div>
-
-</div>
+  <header>
+    <h1>TIC TAC TOE</h1>
+  </header>
+  <main id="game">
+    <ul>
+      <li class="square" onclick="displayMarker('square1');"></li>
+      <li class="square" onclick="displayMarker('square2');"></li>
+      <li class="square" onclick="displayMarker('square3');"></li>
+      <li class="square onclick="displayMarker('square4');""></li>
+      <li class="square" onclick="displayMarker('square5');"></li>
+      <li class="square" onclick="displayMarker('square6');"></li>
+      <li class="square" onclick="displayMarker('square7');"></li>
+      <li class="square" onclick="displayMarker('square8');"></li>
+      <li class="square" onclick="displayMarker('square9');"></li>
+    </ul>
+  </main>
+  <footer>
+    <button id="reset">Reset</button>
+  </footer>
 
 
 <script src="./TTT.js"></script>

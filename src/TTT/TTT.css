@@ -1,54 +1,72 @@
-* {
-  margin: 0;
+body{
+  background-color: white;
+  font-family:consolas;
+}
+header, main, footer {
+  width:300px;
+  margin:auto;
+}
+
+h1 {
+  margin-left: 17%;
+  margin-bottom: 20%;
+  color: black;
+}
+
+ul {
+  height:300px;
+  margin-left: 8%;
+  list-style: none;
   padding: 0;
-  box-sizing: 0;
 }
 
-.box {
-  height: 100px;
-  width: 100px;
-  border: 3px solid black;
-  display: grid;
-  grid-template-columns: (3, 1fr);
-  grid-template-areas: (3, 1fr); 
+li {
+  width:80px;
+  height:80px;
+  float:left;
+  border: 2px solid black;
 }
 
-#grid {
-  
+#reset {
+  width:98%;
+  height:50px;
+  font-size:24px;
 }
 
-.box1 {
-
+.hover{
+  font-size:72px;
+  text-align:center;
+  background-color: lightblue;
+  cursor: pointer;
 }
 
-.box2 {
-  
+.X {
+  font-size:72px;
+  text-align:center;
+  color:black;
 }
-
-.box3 {
-  
+.O {
+  font-size:72px;
+  text-align:center;
+  color: black;
 }
-
-.box4 {
-  
+/* selects the 1st, 4th, and 7th li */
+ul li:nth-child(3n+1) {  
+  border-left:none;
 }
-
-.box5 {
-  
+/* selects the 3rd, 6th, and 9th li */
+ul li:nth-child(3n+3) {  
+  border-right:none;
 }
-
-.box6 {
-  
+/* selects the 7th, 8th, and 9th li */
+ul li:nth-child(n+7) {  
+  border-bottom:none;
 }
-
-.box7 {
-  
+/* selects the 1st, 2nd, and 3rd li */
+ul li:nth-child(-n+3) {  
+  border-top:none;
 }
-
-.box8 {
-  
-}
-
-.box9 {
-  
+button{
+  color: white;
+  background-color: black;
 }

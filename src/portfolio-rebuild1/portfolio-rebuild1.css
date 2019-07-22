@@ -8,7 +8,6 @@ body {
 }
 
 .nav {
-  border: 1px solid;
   display: flex;
 }
 
@@ -39,7 +38,69 @@ ul {
   display: flex;
   flex-direction: row;
   flex: 2;
-  justify-content: space-between;
+}
+
+.button1 {
+  background-color: teal;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+.button1:hover {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+}
+
+.button2 {
+  background-color: teal;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button2:hover {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+}
+
+.button3 {
+  background-color: teal;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button3:hover {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
+}
+
+.button4 {
+  background-color: teal;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button4:hover {
+  background-color: white;
+  opacity: 0.9;
+  color: black;
 }
 
 

@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+ 
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+} 
+
+div {
+  height: 50px;
+  width: 50px;
+}
+
+ .squares {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+   height: 100%;
+   
+  } 
+
+.squares:hover {
+  transform: scale(2);
+}
+
+div:nth-of-type(even) {
+  transition: transform 0.5s ease;
+  transform: scale(1, 1);
+}
+
+.a {
+  background-color: aqua;
+}
+
+.b {
+  background-color:red;
+}
+  
+.c {
+  background-color:green;
+}
+
+.d {
+  background-color:yellow;
+}
+
+.e {
+  background-color:blue;
+}
+
+.f {
+  background-color:purple;
+}
+
+.g {
+  background-color:orange;
+}
+
+.h {
+  background-color:lightsalmon;
+}
+
+.i {
+  background-color:darkolivegreen;
+}
+
+.j {
+  background-color:floralwhite;
+}
+
+.k {
+  background-color:burlywood;
+}
+
+.l {
+  background-color:sandybrown;
+}

@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+ 
+body {
+  height: 100%;
+  width: 100%;
+} 
+
+div {
+  height: 50px;
+  width: 50px;
+  margin-left: 47%;
+}
+
+.squares {
+   height: 100%;
+}
+
+.squares:hover .odd{
+  transition: all 1.4s ease-in;
+}
+
+.squares:hover .even{
+  transition: all 1.4s ease-in;
+}
+
+.squares:hover .translate1{
+  transform: translateX(20em) rotate(90deg) scale(2);
+}
+
+.squares:hover .translate2 {
+  transform: translateX(-20em) rotate(90deg) scale(0.5);
+}
+
+#a {
+  background-color: aqua;
+}
+
+#b {
+  background-color:red;
+}
+  
+#c {
+  background-color:green;
+}
+
+#d {
+  background-color:yellow;
+}
+
+#e {
+  background-color:blue;
+}
+
+#f {
+  background-color:purple;
+}
+
+#g {
+  background-color:orange;
+}
+
+#h {
+  background-color:lightsalmon;
+}
+
+#i {
+  background-color:darkolivegreen;
+}
+
+#j {
+  background-color:floralwhite;
+}
+
+#k {
+  background-color:burlywood;
+}
+
+#l {
+  background-color:sandybrown;
+}

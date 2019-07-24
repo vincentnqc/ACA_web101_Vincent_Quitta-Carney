@@ -1,10 +1,19 @@
 body {
+  height: 100%;
+  width: 100%;
   background-image: url(./he-man.jpg);
   background-size: 220px 150px;
+  font-family: 'VT323', monospace;
+  color: white;
+  text-align: center;
 }
 
-#wheel {
-  background-image: url(./pepe.jpg);
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+#pepe {
   background-size: 300px 300px;
   width: 300px;
   height: 300px;
@@ -17,19 +26,25 @@ img {
   transition-timing-function: linear;
 }
 
+#rps {
+  font-size: 50px;
+}
+
 #currentTotal {
   width: 300px;
   height: 100px;
-  border: 1px solid black;
+  border: 2px solid white;
   text-align: center;
-  font-size: 48px;
+  font-size: 100px;
 }
 
 .button {
   width: 300px;
   height: 40px;
-  border: 1px solid black;
+  border: 2px solid white;
   border-radius: 50px;
   text-align: center;
   cursor: pointer;
+  margin-top: 10px;
+  font-size: 35px;
 }

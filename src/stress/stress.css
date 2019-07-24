@@ -38,6 +38,12 @@ img {
   font-size: 90px;
 }
 
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .button {
   width: 300px;
   height: 40px;
@@ -47,4 +53,5 @@ img {
   cursor: pointer;
   margin-top: 5px;
   font-size: 35px;
+  align-content: center;
 }

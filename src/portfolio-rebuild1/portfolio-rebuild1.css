@@ -114,18 +114,15 @@ header {
 
 .main {
   display: grid;
-  align-content: center;
-  justify-content: space-evenly;
+  justify-items: center;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  height: 500px;
-  width: 500px;
+  grid-template-rows: repeat(2, 1fr);
+  border: solid black;
 }
 
 .content {
-  margin: 50%;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border-radius: 30px;
   box-shadow: 11px 2px 3px grey;
   
@@ -184,7 +181,49 @@ header {
   border: 1px solid black;
 }
 
+@media only screen and (max-width: 1100px) {
+  
+  body {
+    background-color: lightblue;
+  }
 
+  nav {
+    flex-direction: row;
+    height: 20%;
+    align-items: flex-start;
+  }
+
+  .nav {
+    flex-direction: column;
+    height: 75px;
+    width: 75px;
+  }
+
+  .border1 {
+    border: none;
+  }
+  
+  .logo{
+    float: left;
+    flex: 10;
+    height: 150px;
+    width: 150px;
+  }
+
+  .content {
+  height: 150px;
+  width: 150px;
+}
+
+ .profilepic {
+  height: 100px;
+  width: 100px;
+ }
+
+ .project1 {
+  background-size: 150px 200px;
+ }
+}
 
 @media only screen and (max-width: 600px) {
   

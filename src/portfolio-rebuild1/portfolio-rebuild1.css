@@ -24,11 +24,6 @@
     background-repeat: no-repeat;
     background-size: 100% 200px;
   }
-
-  .gnomeface {
-    margin-bottom: 500px;
-
-  }
   
   .profilepic {
     height: 150px;
@@ -39,9 +34,8 @@
     background-size: 150px 150px;
   }
 
-  
-  .nav {
-    
+  nav {
+
   }
   
   ul {
@@ -116,7 +110,7 @@
   }
   
   
-  .bighead {
+  .vincent {
     height: 200px;
     border: solid black;
     color: black;
@@ -136,6 +130,10 @@
     grid-template-areas: 
     "a b c d";
     height: 200px;
+    margin-top: 40px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
   }
   
   .grid-item {
@@ -144,21 +142,21 @@
   }
   
   .grid1 {
-    background-image: url(./ass.jfif);
+    background-image: url(./bob\ ross.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid black;
   }
 
   .grid2 {
-    background-image: url(./cockmongler.jpg);
+    background-image: url(./pepeclown.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid black;
   }
   
   .grid3 {
-    background-image: url(./datboi.jpg);
+    background-image: url(./study.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid black;
@@ -195,6 +193,7 @@
         "lefta righta"
         "lefta rightb";
         justify-content: center;
+        margin-top: 40px;
       }
   
       .lefta {

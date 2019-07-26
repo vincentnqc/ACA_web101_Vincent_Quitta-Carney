@@ -1,0 +1,189 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kalam', cursive;
+  }
+
+  body {
+    background-image: url(./leather.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+   }
+  
+   header {
+    background-color: grey;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url(./woodgrain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+  }
+
+  .profilepic {
+    height: 150px;
+    width: 150px;
+    border: solid black;
+    background-image: url(./profile\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+  }
+  
+  .nav {
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 800px;
+    opacity: 0.8;
+  }
+  
+  .button1 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  .button2 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  .button3 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+  
+  .button3:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+
+  .button4 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+
+  .button4:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  .vincent {
+    height: 200px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+
+
+  .info {
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .words {
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .video {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    border: solid black;
+    height: 150px;
+    width: 100%;
+    margin-top: 50PX;
+    background-color: black;
+    color: white;
+    padding-top: 65px;
+    padding-left: 500px;
+  }
+
+  @media only screen and (max-width: 1020px) {
+    
+  .experts {
+    font-size: 20px;
+  }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    nav {
+      flex-direction: row;
+      height: 20%;
+      align-items: flex-start;
+      height: 100px;
+    }
+   ul {
+     display: flex;
+     flex-direction: column; 
+     width: auto;
+     align-items: center;
+     align-content: center;
+   }
+  .but {
+  height: 20px;
+  font-size: 15px;
+  }
+
+  footer {
+    display: none;
+  }
+
+  }

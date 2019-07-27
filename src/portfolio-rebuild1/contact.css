@@ -9,7 +9,6 @@
     background-image: url(./metallic-high-definition_0.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  
    }
   
    header {
@@ -54,6 +53,7 @@
     border-radius: 7px;
     border: solid white;
   }
+  
   .button1:hover {
     background-color: white;
     opacity: 0.9;
@@ -103,14 +103,38 @@
     color: black;
     text-align: center;
     margin-top: 30px;
+    margin-left: 28%;
   }
 
   .contact {
-    border: solid black;
+    border: 3px solid black;
     height: 300px;
     width: 600px;
     margin-top: 30px;
+    margin-left: 30%;
     font-size: 15px;
+  }
+
+  form {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .email {
+    height: 30px;
+    width: 250px;
+    border: solid black;
+    margin-bottom: 30px;
+  }
+
+  .comment {
+    height: 100px;
+    width: 400px;
+    border: solid black;
+  }
+
+  .submit {
+    margin-top: 10px;
   }
 
   footer {
@@ -124,28 +148,7 @@
     padding-left: 500px;
   }
 
-  .form-group {
-  }
-
-  .form-control {
-    height: 30px;
-    width: 250px;
-    border: solid black;
-    margin-bottom: 30px;
-    margin-left: 50px;
-  }
-
-  .comment {
-    height: 100px;
-    width: 400px;
-    border: solid black;
-    margin-left: 50px;
-  }
-
-  .submit {
-    margin-left: 27px;
-    margin-top: 10px;
-  }
+  
 
 
 
@@ -174,6 +177,7 @@
     display: none;
   }
 
+  
   .vincent {
     height: 125px;
     width: 465px;
@@ -182,6 +186,16 @@
     text-align: center;
     margin-top: 30px;
     font-size: 12px;
+    margin-left: 1%;
+  }
+
+  .but {
+    padding: 0;
+  }
+
+  .contact {
+    width: 465px;
+    margin-left:1%
   }
 
   }

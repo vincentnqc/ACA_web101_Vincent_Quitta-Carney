@@ -9,7 +9,6 @@
   background-image: url(./metallic-high-definition_0.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
  }
 
   header {
@@ -103,6 +102,7 @@
     color: black;
     text-align: center;
     margin-top: 30px;
+    margin-left: 28%;
   }
   
   .grid-container {
@@ -244,8 +244,20 @@
             margin-top: 20px;
           }
 
-          
+          .vincent {
+            height: 150px;
+            width: 650px;
+            border: solid black;
+            color: black;
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 0;
+          }
 
+          .but {
+            padding: 0;
+          }
+          
 
         }
 
@@ -265,10 +277,11 @@
            align-items: center;
            align-content: center;
          }
-      .but {
-        height: 20px;
-        font-size: 15px;
-      }
+      
+          .but {
+            height: 20px;
+            font-size: 15px;
+          }
 
       footer {
         display: none;

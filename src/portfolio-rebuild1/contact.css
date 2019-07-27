@@ -2,7 +2,6 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Kalam', cursive;
   }
 
   body {
@@ -13,7 +12,6 @@
    }
   
    header {
-    background-color: grey;
     height: 170px;
     width: 100%;
     display: flex;
@@ -43,8 +41,6 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    font-family: sans-serif;
-    font-weight: bold;
     width: 800px;
     opacity: 0.8;
   }
@@ -114,11 +110,19 @@
   }
 
   .vincent {
-    height: 200px;
+    width: 650px;
     border: solid black;
     color: black;
     text-align: center;
     margin-top: 30px;
+  }
+
+  .contact {
+    border: solid black;
+    height: 300px;
+    width: 600px;
+    margin-top: 30px;
+    font-size: 15px;
   }
 
   footer {
@@ -162,6 +166,16 @@
 
   footer {
     display: none;
+  }
+
+  .vincent {
+    height: 125px;
+    width: 465px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
   }
 
   }

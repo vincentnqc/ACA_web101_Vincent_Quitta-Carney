@@ -2,7 +2,6 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Kalam', cursive;
   }
 
   body {
@@ -42,8 +41,6 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    font-family: sans-serif;
-    font-weight: bold;
     width: 800px;
     opacity: 0.8;
   }
@@ -113,26 +110,28 @@
   }
   
   .vincent {
-    height: 200px;
+    height: 150px;
+    width: 650px;
     border: solid black;
     color: black;
     text-align: center;
     margin-top: 30px;
+    font-size: 12px;
   }
   
 
-
   .info {
     background-repeat: no-repeat;
-    font-family: sans-serif;
     font-weight: bold;
     border: solid black;
     margin-bottom: 20px;
     margin-top: 20px;
+    height: 400px;
+    width: 400px;
   }
 
   .words {
-    font-size: 40px;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -177,13 +176,36 @@
      align-items: center;
      align-content: center;
    }
-  .but {
-  height: 20px;
-  font-size: 15px;
+
+    .but {
+    height: 20px;
+    font-size: 15px;
+    }
+
+  .info {
+    background-repeat: no-repeat;
+    border: solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 6%;
+    height: 400px;
+    width: 400px;
   }
 
   footer {
     display: none;
   }
 
+
+  .vincent {
+    height: 125px;
+    width: 465px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  
   }

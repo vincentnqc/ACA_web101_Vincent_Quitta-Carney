@@ -1,0 +1,57 @@
+body {
+  height: 90%;
+  width: 100%;
+  background-image: url(./he-man.jpg);
+  background-size: 220px 150px;
+  font-family: 'VT323', monospace;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: -5;
+}
+
+#pepe {
+  background-size: 300px 300px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+img {
+  transition: all 1s;
+  transition-timing-function: linear;
+}
+
+#rps {
+  font-size: 50px;
+}
+
+#currentTotal {
+  width: 300px;
+  height: 80px;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 90px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 35px;
+  align-content: center;
+}

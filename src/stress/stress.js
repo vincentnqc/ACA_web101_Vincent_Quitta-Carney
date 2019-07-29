@@ -12,6 +12,7 @@ function goGo() {
   $("#pepe").css({ 'transform': 'rotate(' + data.totalRevs + 'deg)'});
   updateReport();
 }
+// function gogo means the total revs plus the total RPS is also
 
 function updateReport() {
   $("#currentTotal").text(Math.floor(data.totalCurrent));

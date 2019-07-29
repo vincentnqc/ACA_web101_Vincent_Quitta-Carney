@@ -249,8 +249,6 @@
           .vincent {
             height: 150px;
             width: 650px;
-            border: solid black;
-            color: white;
             text-align: center;
             margin-top: 30px;
             margin-left: 0;
@@ -303,10 +301,6 @@
         display: none;
       }
       
-      .bighead {
-        background-size: contain;
-        color: black;
-      }
 
       .a {
         margin-left: 30px;
@@ -319,11 +313,9 @@
       .vincent {
         height: 125px;
         width: 465px;
-        border: solid black;
-        color: black;
         text-align: center;
         margin-top: 30px;
-        font-size: 12px;
+        font-size: 40px;
       }
 
 

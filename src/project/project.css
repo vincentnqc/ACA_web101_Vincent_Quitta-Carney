@@ -2,11 +2,11 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: black;
   }
 
  body {
-  background-image: url(./metallic-high-definition_0.jpg);
+  background-image: url(./leather.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
  }
@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px;
-    background-image: url(./grate.jpg);
+    background-image: url(./woodgrain.jpg);
   }
   
   .profilepic {
@@ -110,7 +110,8 @@
     grid-template-columns: 1fr, 1fr, 1fr, 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "a b c d";
+    "a b c d"
+    "e f g h";
     height: 200px;
     margin-top: 40px;
     color:white;
@@ -127,28 +128,60 @@
     background-image: url(./bob\ ross.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid black;
+    border: solid white;
   }
 
   .grid2 {
     background-image: url(./pepeclown.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid black;
+    border: solid white;
   }
   
   .grid3 {
     background-image: url(./study.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid black;
+    border: solid white;
   }
   
   .grid4 {
     background-image: url(./austinpic.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid black;
+    border: solid white;
+  }
+
+  .grid5 {
+    background-image: url(./bob\ ross.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    border: solid white;
+    margin-top: 30px;
+  }
+
+  .grid6 {
+    background-image: url(./pepeclown.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    border: solid white;
+    margin-top: 30px;
+  }
+  
+  .grid7 {
+    background-image: url(./study.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    border: solid white;
+    margin-top: 30px;
+  }
+  
+  .grid8 {
+    background-image: url(./austinpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    border: solid white;
+    margin-top: 30px;
   }
     .a {
     grid-area: a;
@@ -166,43 +199,25 @@
     .d {
     grid-area: d;
     }
-  
-      .grid-containerbottom {
-        grid-template-columns: 1fr, 1fr;
-        grid-template-rows: 1fr, 1fr;
-        display: grid;
-        grid-template-areas:
-        "lefta righta"
-        "lefta rightb";
-        justify-content: center;
-        margin-top: 40px;
+
+    .e {
+      grid-area: e;
+      margin-left: 100px;
+      }
+     
+      .f {
+      grid-area: f;
+      }
+     
+      .g {
+      grid-area: g;
+      }
+      
+      .h {
+      grid-area: h;
       }
   
-      .lefta {
-        height: 275px;
-        width: 450px;
-        margin-right: 40px;
-        margin-top: 20px;
-        border: solid black;
-        padding-top: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 25px;
-        color: white;
-        }
-       
-        .righta {
-        height: 200px;
-        width: 400px;
-        margin-top: 20px;
-        border: solid black;
-        background-color: black;
-        font-weight: bold;
-        color: white;
-        padding-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-        }
+      
 
         footer {
           border: solid black;
@@ -213,6 +228,7 @@
           color: white;
           padding-top: 65px;
           padding-left: 500px;
+          margin-top: 300px;
         }
 
         @media only screen and (max-width: 1120px) {
@@ -223,16 +239,10 @@
             grid-template-rows: 1fr, 1fr;
             grid-template-areas: 
             "a b"
-            "c d";
+            "c d"
+            "e f"
+            "g h";
             height: 200px;
-          }
-  
-          .righta {
-            margin-top: 240px;
-          }
-
-          .lefta {
-            display: none;
           }
 
           .c {
@@ -270,6 +280,7 @@
             align-items: flex-start;
             height: 100px;
           }
+          
          ul {
            display: flex;
            flex-direction: column; 
@@ -282,6 +293,19 @@
             height: 20px;
             font-size: 15px;
           }
+
+          .grid-container {
+            display: grid;
+            grid-template-columns: 1fr, 1fr; 
+            grid-template-rows: 1fr, 1fr;
+            grid-template-areas: 
+            "a b"
+            "c d"
+            "e f"
+            "g h";
+            height: 200px;
+          }
+
 
       footer {
         display: none;

@@ -1,0 +1,199 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  }
+
+  body {
+    background-image: url(./metallic-high-definition_0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+   }
+  
+   header {
+    background-color: grey;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url(./grate.jpg);
+  }
+
+  .profilepic {
+    height: 150px;
+    width: 150px;
+    border: solid white;
+    background-image: url(./profile\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+  }
+  
+  .nav {
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    opacity: 0.8;
+  }
+  
+  .button1 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+    border: solid white;
+  }
+  .button1:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    border: solid white;
+  }
+  
+  .button2 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+    border: solid white;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    border: solid white;
+  }
+  
+  .button3 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+    border: solid white;
+  }
+  
+  .button3:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    border: solid white;
+  }
+  
+  .vincent {
+    height: 150px;
+    width: 650px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 28%;
+  }
+  
+
+  .info {
+    background-repeat: no-repeat;
+    font-weight: bold;
+    border: solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    margin-left: 37%;
+  }
+
+  .words {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .video {
+    height: 300px;
+    display: flex;
+    margin-left: 33%;
+  }
+
+  footer {
+    border: solid black;
+    height: 150px;
+    width: 100%;
+    margin-top: 50PX;
+    background-color: black;
+    color: white;
+    padding-top: 65px;
+    padding-left: 500px;
+  }
+
+  @media only screen and (max-width: 1020px) {
+    
+    .but {
+      padding: 0;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    nav {
+      flex-direction: row;
+      height: 20%;
+      align-items: flex-start;
+      height: 100px;
+    }
+   ul {
+     display: flex;
+     flex-direction: column; 
+     width: auto;
+     align-items: center;
+     align-content: center;
+   }
+
+    .but {
+    height: 20px;
+    font-size: 15px;
+    }
+
+  .info {
+    margin-left: 8%;
+  }
+
+  footer {
+    display: none;
+  }
+
+
+  .vincent {
+    height: 125px;
+    width: 465px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 1%;
+  }
+
+    .video {
+      margin-left: 0;
+    }
+  
+  }

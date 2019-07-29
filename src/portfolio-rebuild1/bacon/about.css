@@ -1,0 +1,181 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kalam', cursive;
+  }
+  
+  header {
+    background-color: grey;
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    opacity: 0.8;
+    background-image: url(./heman.jfif);
+  }
+  
+  .z {
+    opacity: 0.8;
+  }
+
+  .ziz {
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    opacity: 0.8;
+  }
+  
+  .nav {
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 800px;
+    opacity: 0.8;
+  }
+  
+  .button1 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  .button2 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  .button3 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+  
+  .button3:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+
+  .button4 {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+
+  .button4:hover {
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  
+  .z {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    
+  }
+
+  .greathairstyle {
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .experts {
+    font-size: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    border: solid black;
+    height: 150px;
+    width: 100%;
+    margin-top: 50PX;
+    background-color: black;
+    color: white;
+    padding-top: 65px;
+    padding-left: 500px;
+  }
+
+  @media only screen and (max-width: 1020px) {
+    
+  .experts {
+    font-size: 20px;
+  }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    nav {
+      flex-direction: row;
+      height: 20%;
+      align-items: flex-start;
+      height: 100px;
+    }
+   ul {
+     display: flex;
+     flex-direction: column; 
+     width: auto;
+     align-items: center;
+     align-content: center;
+   }
+  .but {
+  height: 20px;
+  font-size: 15px;
+  }
+
+  footer {
+    display: none;
+  }
+
+  }

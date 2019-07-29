@@ -2,36 +2,30 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
   }
 
  body {
-  background-image: url(./leather.jpg);
+  background-image: url(./wall.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
  }
 
   header {
     height: 170px;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
-    background-image: url(./woodgrain.jpg);
+    padding: 60px;
+    background-image: url(./graffiti.jpg);
   }
   
   .profilepic {
     height: 150px;
     width: 150px;
-    border: solid white;
+    border: solid hotpink;
     background-image: url(./profile\ 2.jpg);
     background-repeat: no-repeat;
     background-size: 150px 150px;
-  }
-
-  nav {
-
   }
   
   ul {
@@ -39,70 +33,66 @@
     display: flex;
     justify-content: space-evenly;
     width: 800px;
-    opacity: 0.8;
   }
   
   .button1 {
-    background-color: black;
-    color: white;
+    background-color: lightgreen;
+    color: hotpink;
     padding: 5px 15px;
     text-align: center;
     display: inline-block;
     font-size: 18px;
     border-radius: 7px;
-    border: solid white;
+    border: solid hotpink;
   }
   .button1:hover {
-    background-color: white;
+    background-color: yellow;
     opacity: 0.9;
-    color: black;
-    border: solid white;
+    color: blue;
+    border: solid blue;
   }
   
   .button2 {
-    background-color: black;
-    color: white;
+    background-color: lightgreen;
+    color: hotpink;
     padding: 5px 15px;
     text-align: center;
     display: inline-block;
     font-size: 18px;
     border-radius: 7px;
-    border: solid white;
+    border: solid hotpink;
   }
-  
   .button2:hover {
-    background-color: white;
+    background-color: yellow;
     opacity: 0.9;
-    color: black;
-    border: solid white;
+    color: blue;
+    border: solid blue;
   }
   
   .button3 {
-    background-color: black;
-    color: white;
+    background-color: lightgreen;
+    color: hotpink;
     padding: 5px 15px;
     text-align: center;
     display: inline-block;
     font-size: 18px;
     border-radius: 7px;
-    border: solid white;
+    border: solid hotpink;
   }
-  
   .button3:hover {
-    background-color: white;
+    background-color: yellow;
     opacity: 0.9;
-    color: black;
-    border: solid white;
+    color: blue;
+    border: solid blue;
   }
   
   .vincent {
     height: 150px;
     width: 650px;
-    border: solid black;
-    color: black;
+    color: darkturquoise;
     text-align: center;
-    margin-top: 30px;
     margin-left: 28%;
+    font-size: 40px;
   }
   
   .grid-container {
@@ -113,7 +103,7 @@
     "a b c d"
     "e f g h";
     height: 200px;
-    margin-top: 40px;
+    margin-top: 200px;
     color:white;
     font-size: 30px;
     text-align: center;
@@ -122,65 +112,67 @@
   .grid-item {
     height: 200px;
     width: 200px;
+    color: white;
   }
   
   .grid1 {
     background-image: url(./bob\ ross.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid yellow;
   }
 
   .grid2 {
     background-image: url(./pepeclown.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid lightgreen;
   }
   
   .grid3 {
     background-image: url(./study.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid turquoise;
   }
   
   .grid4 {
     background-image: url(./austinpic.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid red;
   }
 
   .grid5 {
-    background-image: url(./bob\ ross.jpg);
+    background-image: url(./heman2.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid greenyellow;
     margin-top: 30px;
   }
 
   .grid6 {
-    background-image: url(./pepeclown.jpg);
+    background-image: url(./tic_tac_toe.gif);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid hotpink;
     margin-top: 30px;
+    color: black
   }
   
   .grid7 {
-    background-image: url(./study.jpg);
+    background-image: url(./towers.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid orange;
     margin-top: 30px;
   }
   
   .grid8 {
-    background-image: url(./austinpic.jpg);
+    background-image: url(./profile\ 2.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid white;
+    border: solid yellowgreen;
     margin-top: 30px;
   }
     .a {
@@ -224,11 +216,11 @@
           height: 150px;
           width: 100%;
           margin-top: 50PX;
-          background-color: black;
-          color: white;
-          padding-top: 65px;
-          padding-left: 500px;
+          background-color: yellow;
+          color: black;
+          text-align: center;
           margin-top: 300px;
+          padding-top: 55px;
         }
 
         @media only screen and (max-width: 1120px) {
@@ -258,7 +250,7 @@
             height: 150px;
             width: 650px;
             border: solid black;
-            color: black;
+            color: white;
             text-align: center;
             margin-top: 30px;
             margin-left: 0;

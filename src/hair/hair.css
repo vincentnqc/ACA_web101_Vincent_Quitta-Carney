@@ -4,11 +4,270 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-}
-
 header {
+  background-color: #38B2A5;
   height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
 }
 
+.ziz {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.nav {
+  
+}
+
+ul {
+  list-style-type: none;
+  color: blue;
+  display: flex;
+  justify-content: row;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button2 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button3 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button4 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.button5 {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.z {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  
+}
+
+.greathairstyle {
+  background-image: url(./great-hairstyle1.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: solid #38B2A5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.experts {
+  margin-left: 500px;
+  padding-top: 100px;
+  font-size: 45px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: 
+  "a b c d"
+  "e f g h";
+  height:405px;
+}
+
+.grid-item {
+  
+  height: 200px;
+  width: 200px
+}
+
+.grid1 {
+  background-image: url(./grid1.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  border: solid #38B2A5;
+}
+
+.grid2 {
+  background-image: url(./grid2.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  border: solid #38B2A5;
+}
+
+.grid3 {
+  background-image: url(./grid3.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  border: solid #38B2A5;
+}
+
+.grid4 {
+  background-image: url(./grid4.jpg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  border: solid #38B2A5;
+}
+
+.grid5 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.grid6 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.grid7 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.grid8 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.a {
+  grid-area: a;
+  margin-left: 100px;
+  }
+ 
+  .b {
+  grid-area: b;
+  }
+ 
+  .c {
+  grid-area: c;
+  }
+  
+  .d {
+  grid-area: d;
+  }
+
+  .e {
+    grid-area: e;
+    margin-left: 100px;
+    }
+   
+  .f {
+    grid-area: f;
+    }
+   
+  .g {
+    grid-area: g;
+    }
+    
+  .h {
+    grid-area: h;
+    }
+
+    .grid-containerbottom {
+      grid-template-columns: 1fr, 1fr;
+      grid-template-rows: 1fr, 1fr;
+      display: grid;
+      grid-template-areas:
+      "lefta righta"
+      "lefta rightb";
+      justify-content: center;
+    }
+
+    .lefta {
+      grid-area: lefta;
+      height: 500px;
+      width: 450px;
+      margin-right: 40px;
+      margin-top: 20px;
+      border: solid #38B2A5;
+      background-image: url(./lady.jpg);
+      background-repeat: no-repeat;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
+     
+      .righta {
+      grid-area: righta;
+      height: 250px;
+      width: 400px;
+      margin-top: 20px;
+      border: solid #38B2A5;
+      background-color: #38B2A5;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: white;
+      padding-top: 50px;
+      padding-left: 10px;
+      }
+     
+      .rightb {
+      grid-area: rightb;
+      height: 200px;
+      width: 400px;
+      border: solid #38B2A5;
+      background-image: url(./skinhead.png);
+      background-repeat: no-repeat;
+      padding-left: 200px;
+      padding-top: 50px;
+      padding-right: 15px;
+      color: white;
+      background-color: #38B2A5;
+      font-family: sans-serif;
+      font-weight: bold;
+      }
+
+      footer {
+        border: solid #38B2A5;
+        height: 150px;
+        width: 100%;
+        margin-top: 50PX;
+        background-color: #38B2A5;
+        color: white;
+        padding-top: 65px;
+        padding-left: 500px;
+      }

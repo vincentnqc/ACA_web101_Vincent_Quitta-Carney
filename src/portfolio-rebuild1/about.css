@@ -98,7 +98,7 @@
   }
   
   .vincent {
-    height: 150px;
+    height: 100px;
     width: 650px;
     border: solid black;
     color: black;
@@ -115,7 +115,6 @@
     border: solid black;
     margin-bottom: 20px;
     margin-top: 20px;
-    height: 400px;
     width: 400px;
     margin-left: 37%;
   }

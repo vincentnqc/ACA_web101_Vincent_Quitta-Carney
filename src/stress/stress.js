@@ -12,19 +12,24 @@ function goGo() {
   $("#pepe").css({ 'transform': 'rotate(' + data.totalRevs + 'deg)'});
   updateReport();
 }
-// function gogo means the total revs plus the total RPS is also
+// function gogo means the total revs plus total rps value
+// data total current is equal to it's value plus the total rps
+//pepe's transformation is to rotate by the total RPS
+ 
 
 function updateReport() {
   $("#currentTotal").text(Math.floor(data.totalCurrent));
   $("#rps").text((data.totalRPS/70.4).toFixed(3));
 }
-
+//current total in css is displayed at the total current in the js
+//same with the rps
 
 $("#pepe").click(function (){
   data.totalRevs ++;
   data.totalCurrent ++;
   updateReport();
 })
+//click on pepe and it adds to the total revs and total current which is displayed on screen
 
 $(".button").click(function (){ 
   var addVal = $(this).data( "cost" );
@@ -36,3 +41,6 @@ $(".button").click(function (){
   }
   updateReport();
 })
+//value of the total current vlue and subtract what the cost is and then the new total current is displayed
+//total rps increases by the value
+//all the othere buttons will have the same effect when click on and the total cost of the button will increse by 1.15 percent each time it is clicked

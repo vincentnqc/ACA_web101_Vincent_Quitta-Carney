@@ -8,6 +8,7 @@
   background-image: url(./wall.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed;
  }
 
   header {
@@ -87,12 +88,13 @@
   }
   
   .vincent {
-    height: 150px;
+    height: 100px;
     width: 650px;
     color: darkturquoise;
     text-align: center;
     margin-left: 28%;
     font-size: 40px;
+    background-color: rgb(0, 0, 0, 0.4);
   }
   
   .grid-container {
@@ -103,8 +105,7 @@
     "a b c d"
     "e f g h";
     height: 200px;
-    margin-top: 200px;
-    color:white;
+    margin-top: 50px;
     font-size: 30px;
     text-align: center;
   }
@@ -112,7 +113,9 @@
   .grid-item {
     height: 200px;
     width: 200px;
-    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
   
   .grid1 {
@@ -120,6 +123,11 @@
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid yellow;
+    color: yellow !important;
+  }
+
+  .grid1>a { 
+    color: yellow;
   }
 
   .grid2 {
@@ -128,6 +136,10 @@
     background-size: 200px 200px;
     border: solid lightgreen;
   }
+
+  .grid2>a {
+    color: lightgreen;
+  }
   
   .grid3 {
     background-image: url(./study.jpg);
@@ -135,12 +147,20 @@
     background-size: 200px 200px;
     border: solid turquoise;
   }
+
+  .grid3>a {
+    color: turquoise;
+  }
   
   .grid4 {
     background-image: url(./austinpic.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid red;
+  }
+
+  .grid4>a {
+    color: red;
   }
 
   .grid5 {
@@ -151,13 +171,20 @@
     margin-top: 30px;
   }
 
+  .grid5>a {
+    color: greenyellow;
+  }
+
   .grid6 {
     background-image: url(./tic_tac_toe.gif);
     background-repeat: no-repeat;
     background-size: 200px 200px;
     border: solid hotpink;
     margin-top: 30px;
-    color: black
+  }
+
+  .grid6>a {
+    color:hotpink;
   }
   
   .grid7 {
@@ -167,13 +194,21 @@
     border: solid orange;
     margin-top: 30px;
   }
+
+  .grid7>a {
+    color: orange;
+  }
   
   .grid8 {
     background-image: url(./profile\ 2.jpg);
     background-repeat: no-repeat;
     background-size: 200px 200px;
-    border: solid yellowgreen;
+    border: solid purple;
     margin-top: 30px;
+  }
+
+  .grid8>a {
+    color: purple;
   }
     .a {
     grid-area: a;
@@ -213,14 +248,14 @@
 
         footer {
           border: solid black;
-          height: 150px;
+          height: 50px;
           width: 100%;
           margin-top: 50PX;
           background-color: yellow;
           color: black;
           text-align: center;
           margin-top: 300px;
-          padding-top: 55px;
+          padding: 13px;
         }
 
         @media only screen and (max-width: 1120px) {
@@ -237,17 +272,20 @@
             height: 200px;
           }
 
+          .grid-item {
+            margin-left: 10px;
+          }
+
           .c {
-            margin-left: 100px;
-            margin-top: 20px;
+            margin-top: 30px;
           }
 
           .d {
-            margin-top: 20px;
+            margin-top: 30px;
           }
 
           .vincent {
-            height: 150px;
+            height: 100px;
             width: 650px;
             text-align: center;
             margin-top: 30px;
@@ -296,28 +334,20 @@
             height: 200px;
           }
 
+          .grid-item {
+            margin-left: 10px;
+          }
 
       footer {
         display: none;
       }
       
-
-      .a {
-        margin-left: 30px;
-      }
-
-      .c {
-        margin-left: 30px;
-      }
-      
       .vincent {
-        height: 125px;
+        height: 100px;
         width: 465px;
         text-align: center;
         margin-top: 30px;
         font-size: 40px;
       }
-
-
 
         }
